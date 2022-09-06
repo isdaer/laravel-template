@@ -7,6 +7,10 @@ https://learnku.com/docs/laravel/5.5
 
 ```
 composer install
+
+cp .env.example .env
+
 php artisan config:clear && php artisan route:clear
+
 php artisan serve --port=8000
 ```
