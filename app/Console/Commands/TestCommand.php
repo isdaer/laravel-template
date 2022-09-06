@@ -41,7 +41,7 @@ class TestCommand extends Command
         $bar = $this->output->createProgressBar(count($arr));
 
         foreach ($arr as $item) {
-            print_r($item);
+            $this->info($item);
             $bar->advance();
         }
 
